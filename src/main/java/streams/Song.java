@@ -4,10 +4,10 @@ import java.time.LocalDate;
 import java.util.List;
 
 public class Song {
-    private String title;
-    private int length;
-    private List<String> performers;
-    private LocalDate release;
+    private final String title;
+    private final int length;
+    private final List<String> performers;
+    private final LocalDate release;
 
     public Song(String title, int length, List<String> performers, LocalDate release) {
         this.title = title;
