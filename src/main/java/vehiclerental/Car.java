@@ -1,7 +1,6 @@
 package vehiclerental;
 
 import java.time.LocalTime;
-import java.util.Objects;
 
 public class Car implements Rentable {
     private final String id;
